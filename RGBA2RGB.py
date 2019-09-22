@@ -14,5 +14,3 @@ for each in os.listdir(src):
     else:
         png.convert('RGB')
         png.save(os.path.join(dst,each.split('.')[0] + '.jpg'), 'JPEG')
-        
->>> 

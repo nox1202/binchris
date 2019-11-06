@@ -241,8 +241,8 @@ def train():
             saver.save(sess, './model/' +version + '/' + str(i))  
         if i%50 == 0:
             # save images
-            if not os.path.exists(newPoke_path):
-                os.makedirs(newPoke_path)
+            if not os.path.exists(newJewel_path):
+                os.makedirs(newJewel_path)
             sample_noise = np.random.uniform(-1.0, 1.0, size=[batch_size, random_dim]).astype(np.float32)
             imgtest = sess.run(fake_image, feed_dict={random_input: sample_noise, is_train: False})
             # imgtest = imgtest * 255.0

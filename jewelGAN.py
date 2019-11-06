@@ -25,7 +25,7 @@ def lrelu(x, n, leak=0.2):
 def process_data():   
     current_dir = os.getcwd()
     # parent = os.path.dirname(current_dir)
-    pokemon_dir = os.path.join(current_dir, 'data')
+    newJewel_dir = os.path.join(current_dir, 'data')
     images = []
     for each in os.listdir(newJewel_dir):
         images.append(os.path.join(newJewel_dir,each))

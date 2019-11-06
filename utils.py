@@ -1,4 +1,3 @@
-
 """
 Some codes from https://github.com/Newmu/dcgan_code
 """

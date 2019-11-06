@@ -1,6 +1,4 @@
-[GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.57)] on darwin
-Type "help", "copyright", "credits" or "license()" for more information.
->>> 
+
 """
 Some codes from https://github.com/Newmu/dcgan_code
 """
